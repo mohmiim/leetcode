@@ -19,25 +19,3 @@ pub fn max_profit(prices: Vec<i32>) -> i32 {
     return max_profit;
 }
 
-
-/*
-class Solution {
-    public int maxProfit(int[] prices) {
-        int profit = 0 ;
-        int min  = prices[0];
-        for (int index = 1; index < prices.length ; index++){
-            if (prices[index] < min ){
-                min = prices[index];
-            }else {
-                int localProfit = prices[index] - min;
-                if (localProfit > profit){
-                    profit = localProfit;
-                }
-            }
-        }
-        return profit;
-    }
-}
-
-
-*/
